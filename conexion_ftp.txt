@@ -1,0 +1,7 @@
+Host: files.000webhost.com
+
+Port: 21
+
+Username: thewinnersone
+ 
+Password: lamafiawi
