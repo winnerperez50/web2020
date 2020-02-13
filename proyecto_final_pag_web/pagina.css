@@ -1,0 +1,46 @@
+body{
+background-image: url(imagenes/Captura-de-pantalla-2017-03-30-a-las-11.59.05.jpg);   
+ background-size: 100%;
+}
+
+h3{
+    color: bisque;
+    width: 750px;
+    word-wrap: break-word;
+    font-size: x-large;
+}
+
+section{
+    color: bisque;
+}
+
+p{
+    color: rgb(234, 250, 7);
+    width: 750px;
+    word-wrap: break-word;
+    font-size: x-large;
+}
+
+h5{
+    color: bisque;
+}
+
+.a{
+    color: bisque;
+    
+    
+}
+
+ul{
+    font-size: 20PX;
+}
+
+div{
+    color: bisque;
+    font-size: 20px;
+}
+
+.tamano{
+    font-size: 25px;
+}
+
