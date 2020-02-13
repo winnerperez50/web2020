@@ -16,7 +16,7 @@ section{
 
 p{
     color: rgb(234, 250, 7);
-    width: 750px;
+    width: 700px;
     word-wrap: break-word;
     font-size: x-large;
 }
@@ -44,3 +44,6 @@ div{
     font-size: 25px;
 }
 
+.color{
+    color: bisque;
+}
