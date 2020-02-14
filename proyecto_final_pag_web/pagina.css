@@ -16,7 +16,7 @@ section{
 }
 
 p{
-    color: rgba(0, 255, 0, 0.842);
+    color:bisque;
     width: 700px;
     word-wrap: break-word;
     font-size: x-large;
@@ -34,6 +34,7 @@ h5{
 
 ul{
     font-size: 20PX;
+    
 }
 
 div{
@@ -55,4 +56,14 @@ div{
 }
 text{
     margin: auto ;
+}
+header{
+    position: fixed;
+}
+.cambiar{
+    background-color:rgba(128, 128, 128, 0.52);
+}
+
+th{
+    color: bisque;
 }
