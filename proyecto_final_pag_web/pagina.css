@@ -1,33 +1,33 @@
 body{
-background-image: url(imagenes/Captura-de-pantalla-2017-03-30-a-las-11.59.05.jpg);   
- background-size: 100%;
- background-attachment: fixed;
+background: burlywood;
+
 }
 
+
 h3{
-    color: bisque;
-    width: 750px;
+    color: black;
+    
     word-wrap: break-word;
     font-size: x-large;
 }
 
 section{
-    color: bisque;
+    color: black;
 }
 
 p{
-    color:bisque;
-    width: 700px;
+    color:black;
+    
     word-wrap: break-word;
     font-size: x-large;
 }
 
 h5{
-    color: bisque;
+    color: black;
 }
 
 .a{
-    color: bisque;
+    color: black;
     
     
 }
@@ -38,7 +38,7 @@ ul{
 }
 
 div{
-    color: bisque;
+    color: black;
     font-size: 20px;
 }
 
@@ -47,11 +47,11 @@ div{
 }
 
 .color{
-    color: bisque;
+    color: black;
 }
 
 .text{
-    color: bisque;
+    color: black;
     text-align: right;
 }
 text{
@@ -65,5 +65,8 @@ header{
 }
 
 th{
-    color: bisque;
+    color: black;
+}
+h1{
+    color: black;
 }
