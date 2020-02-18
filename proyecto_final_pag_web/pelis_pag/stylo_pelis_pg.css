@@ -4,7 +4,10 @@ padding: 0;
 }
 
 body{
-    background:#e6e6e6;
+   
+    background-size:100%;
+    background: url(../imagenes/Fondo_peli_original.jpg);
+    background-repeat:no-repeat;
 }
 
 header, .main, footer{

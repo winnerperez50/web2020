@@ -1,6 +1,10 @@
 body{
-background: burlywood;
-
+    background-image:url(imagenes/Fondo_peli_original.jpg);
+    background-size:cover
+   
+}
+body{
+     background-attachment:fixed;
 }
 
 
@@ -84,4 +88,14 @@ header .hala{
     background: #fff;
     width: 90%;
     margin: auto;
+}
+
+table{
+    background-color: rgba(202, 71, 71, 0.452);
+    
+}
+
+table, tbody, tr{
+    color: black;
+    
 }
