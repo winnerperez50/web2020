@@ -72,3 +72,16 @@ h1{
 }
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body .hola{
+    background: #e6e6e6;
+}
+header .hala{
+    background: #fff;
+    width: 90%;
+    margin: auto;
+}
