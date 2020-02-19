@@ -99,3 +99,7 @@ table, tbody, tr{
     color: black;
     
 }
+
+div#seccion_winner {
+    margin-top: 100px;
+}
