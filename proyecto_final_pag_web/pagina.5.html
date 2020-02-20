@@ -37,9 +37,9 @@
 
     <div class="container mt-5">
 
-        <form action="">
+        <form action="" class="form">
             <div class="form-header">
-                <h1 class="fonrm-title">C<span>onatacto</span></h1>
+                <h1 class="fonrm-title text-center text-white">I<span>niciar Sección</span></h1>
             </div>
 
             <label for="nombre" class="form-label">Nombres</label>
@@ -48,41 +48,43 @@
             <label for="apellidos" class="form-label">Aepllidos</label>
             <input type="text" id="apellidos" class="form-input" placeholder="Escriba su apellidos  ">
 
-            <i class="fa fa-calendar" aria-hidden="true"> Fecha de nacimiento</i>
-            <select name="Dia" id="">
-                <option value="">1Dia</option>
-                <option value="">2Dia</option>
-                <option value="">3Dia</option>
-                <option value="">4Dia</option>
-                <option value="">5Dia</option>
-                <option value="">6Dia</option>
-                <option value="">7Dia</option>
-                <option value="">8Dia</option>
-                <option value="">9Dia</option>
-                <option value="">10Dia</option>
-                <option value="">11Dia</option>
-                <option value="">12Dia</option>
-                <option value="">13Dia</option>
-                <option value="">14Dia</option>
-                <option value="">15Dia</option>
-                <option value="">16Dia</option>
-                <option value="">17Dia</option>
-                <option value="">18Dia</option>
-                <option value="">19Dia</option>
-                <option value="">20Dia</option>
-                <option value="">21Dia</option>
-                <option value="">22Dia</option>
-                <option value="">23Dia</option>
-                <option value="">24Dia</option>
-                <option value="">25Dia</option>
-                <option value="">26Dia</option>
-                <option value="">27Dia</option>
-                <option value="">28Dia</option>
-                <option value="">29Dia</option>
-                <option value="">30Dia</option>
-                <option value="">31Dia</option>
+            <label for="fecha_de_nacimiento" class="form-label"> Fecha de nacimiento</label>
+            <select name="Dia" id="fecha_de_nacimiento">
+                <option value="">Dia</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">1</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
             </select>
             <select name="" id="">
+                <option value="">Mes</option>
                 <option value="">Enero</option>
                 <option value="">Febreo</option>
                 <option value="">Marzo</option>
@@ -94,10 +96,10 @@
                 <option value="">Septiebre</option>
                 <option value="">Ocrubre</option>
                 <option value="">Nobiembre</option>
-                <option value="">Diciembre</option>{$Mes}
+                <option value="">Diciembre</option>
             </select>
             <select name="" id="">
-            
+                <option value="">Año</option>
                 <option value="">1990</option>
                 <option value="">1991</option>
                 <option value="">1992</option>
@@ -134,16 +136,16 @@
             <label for="direccion" class="form-label">Dirección</label>
             <input type="text" id="direccion" class="form-input" placeholder="Escriba su Dirección">
 
-            <i class="fa fa-phone-square" aria-hidden="true"></i>
-            <label for="">Telefono</label>
-            <input type="tel" name="" id="">
+
+            <label for="telefono" class="form-label">Telefono</label>
+            <input type="telefono" id="telefono" class="form-input" placeholder="Escribe tu telefono">
 
             <label for="correo" class="form-label">Correo Electronico</label>
             <input type="email" id="correo" class="form-input" placeholder="Escriba su Correo">
 
             <label for="mensaje" class="form-label">Mensaje</label>
             <textarea id="mensaje" class="form-textarea" placeholder="A qui escriba su mensaje"></textarea>
-            
+
             <input type="submit" class="btn-submit" value="Enviar consulta">
 
         </form>
