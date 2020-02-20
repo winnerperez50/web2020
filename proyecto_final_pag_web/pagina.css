@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
     background-image:url(imagenes/Fondo_peli_original.jpg);
     background-size:cover
@@ -103,3 +108,4 @@ table, tbody, tr{
 div#seccion_winner {
     margin-top: 100px;
 }
+
