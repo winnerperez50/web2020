@@ -17,6 +17,10 @@
 <body class="d-flex justify-content-center fondo">
 
     <header>
+        <!--Este es el menu de navegación modifique los botones que antes eran nav link
+    para que el menu de navegación se vea mejor la pagina, tiene un size para el tamaño
+    y un link para entrar a las otras paginas. (lo que es el index pagina 2,5,6 estan 
+    modificadas por pagina.css las otras paginas tiene otro css.) -->
 
         <nav class="cambiar">
             <ul class="nav nav-pills bg-primary">
@@ -39,10 +43,14 @@
         </nav>
     </header>
 
-
-
+    <!--aqui ya comence con lo que es la parte rpincipal donde va la informacion
+     y de la pagina con un video promocional mio y lo que busca la pagina 
+     utilice margin para separar tengo varios audios y un viedo en una lista ordenada
+    tambien le agregue un size para darle tamaño-->
     <div class="container mt-5">
-        <h1>Informate.pelis</h1>
+        <main>
+            <h1>Informate.pelis</h1>
+        </main>
 
         <p class="mb-4">Peliculas que saldran o ya salierón en este 2020 informate con nosotros.</p>
 
@@ -51,23 +59,25 @@
         <h5 class="mb-4">A qui le dejo un musiquita jevi</h5>
 
 
-        <h3>Marshmello movng on</h3>
-
-        <audio src="audios/Marshmello_Moving_On_Lyrics).mp3" controls></audio>
-
-        <h3>No money lyrics</h3>
-        <audio src="audios/Galantis_No_Money_Lyrics.mp3" controls></audio>
-
-        <h3>Clarity</h3>
-        <audio src="audios/Nightcore_Clarity.mp3" controls></audio>
-        <h2>Miralo te gustara </h2>
-
-        <video src="videos/Winner_Video_Sony_psp.mp4" controls width="550"></video>
-
-
+        <ol>
+            <li class="nav-item">
+                <h3>Marshmello movng on</h3>
+                <audio src="audios/Marshmello_Moving_On_Lyrics).mp3" controls></audio>
+            </li>
+            <li class="nav-item">
+                <h3>No money lyrics</h3>
+                <audio src="audios/Galantis_No_Money_Lyrics.mp3" controls></audio>
+            </li>
+            <li class="nav-item">
+                <h3>Clarity</h3>
+                <audio src="audios/Nightcore_Clarity.mp3" controls></audio>
+            </li>
+            <li class="nav-item">
+                <h2>Miralo te gustara </h2>
+                <video src="videos/Winner_Video_Sony_psp.mp4" controls width="550"></video>
+            </li>
+        </ol>
     </div>
-
-
 </body>
 
 </html>
